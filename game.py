@@ -7,9 +7,11 @@
 # Track the number of turns remaining.
 # If they run out of turns, provide feedback to the player. 
 # Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode).
-
+from guess_game_logo import logo
 # Print the Logo
+# print(logo)
 # Welcome message
+
 # Guess numhber from 1 - 100
 # Ask for difficulty level
 # easy is 10 attempts, hard is 5 attempts
