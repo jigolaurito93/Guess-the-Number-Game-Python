@@ -10,10 +10,18 @@
 from guess_game_logo import logo
 # Print the Logo
 # print(logo)
-# Welcome message
 
-# Guess numhber from 1 - 100
+# Welcome message
+print('Welcome to the Number Guessing Game!')
+# Guess number from 1 - 100
+print("I'm thinking of a number between 1 and 100.")
+
+# Print answer for now
+answer = 5
+print(f'Pssst, the correct answer is {answer}')
+
 # Ask for difficulty level
+difficulty = input(f"Choose a difficulty. Type 'easy' or 'hard':\n")
 # easy is 10 attempts, hard is 5 attempts
 
 # Print how many attempts available
